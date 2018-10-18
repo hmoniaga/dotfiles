@@ -88,6 +88,7 @@ export PATH=$PATH:~/go/bin
 
 # aliases  
 alias vpn="lazy-connect"
+alias vpn-stage="lazy-connect ds stag; lazy-connect pay stag; lazy-connect inte"
 
 # ruby
 eval "$(rbenv init -)"
