@@ -86,9 +86,16 @@ fi
 # golang
 export PATH=$PATH:~/go/bin
 
+# ls colorized
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
 # aliases  
 alias vpn="lazy-connect"
 alias vpn-stage="lazy-connect ds stag; lazy-connect pay stag; lazy-connect inte"
+alias ls='ls -GFh'
 
 # ruby
 eval "$(rbenv init -)"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
